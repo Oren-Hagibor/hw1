@@ -1,0 +1,27 @@
+div {
+  width:765px;
+  height:365px;
+}
+.blue{
+	background-color:blue;
+	float:right;
+	margin:-10px;
+	margin-top:-355px;
+}
+.red{
+	margin:-10px;
+	margin-top:-10px;
+	background-color:red;
+}
+.yellow{
+	margin:-10px;
+	margin-top:10px;
+	background-color:yellow;
+}
+
+.lightblue{
+	background-color:lightblue;
+	float:right;
+	margin:-10px;
+	margin-top:-355px;
+}
