@@ -18,6 +18,7 @@ public class Q4 {
 		sc.close();
 		
 		fw = new FileWriter("q4_Css.css");
+		//define div classes in css file
 		fw.write("div {\r\n" + "  width:"+1550/n+"px;\r\n" + "  height:825px;\r\n" + "  margin:"+1550/n+"px;\r\n"
 				+ "  margin-top:-5px;\r\n" + "}\r\n" + ".blue{\r\n" + "	background-color:blue;\r\n" + "}\r\n"
 				+ ".red{\r\n" + "	background-color:red;\r\n" + "}\r\n" + ".green{\r\n"
@@ -25,9 +26,11 @@ public class Q4 {
 		fw.close();
 
 		fw = new FileWriter("q4_html.html");
-		fw.write("<html>\r\n" + "    <title>\r\n" + "		Q1\r\n" + "    </title>\r\n"
+		//write the needed html tags and link css file
+		fw.write("<html>\r\n" + "    <title>\r\n" + "		Q4\r\n" + "    </title>\r\n"
 				+ "	<link rel=\"stylesheet\" type=\"text/css\" href=\"q4_Css.css\">\r\n"
 				+ "	<div class=\"blue\" style=\"margin:-10px;\"/>");
+		//writes n columns
 		for (int i = 1; i < n; i++) {
 			if (i % 3 == 1)
 				fw.write("	<div class=\"red\" />\r\n");
